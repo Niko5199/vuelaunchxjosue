@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .info {
-  /* display: flex; */
-  justify-content: center;
+  display: block;
+  margin: 0px auto;
 }
 </style>
