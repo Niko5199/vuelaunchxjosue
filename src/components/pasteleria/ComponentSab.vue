@@ -5,15 +5,17 @@
     <div>
       <div class="sab">
         <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate" />
-        <label for="sabor1">Chocolate $180</label>
+        <label for="sabor1">{{ $store.state.precioCho }}</label>
       </div>
       <div class="sab">
         <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla" />
-        <label for="sabor2">Vainilla $150</label><br />
+        <label for="sabor2">{{ $store.state.precioVai }}</label
+        ><br />
       </div>
       <div class="sab">
         <input type="checkbox" id="sabor3" name="sabor3" value="Fresa" />
-        <label for="sabor3">Fresa $180</label><br /><br />
+        <label for="sabor3">{{ $store.state.precioFres }}</label
+        ><br /><br />
       </div>
     </div>
   </div>

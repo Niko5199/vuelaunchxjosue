@@ -4,21 +4,25 @@
     <div>
       <div class="ador">
         <input type="checkbox" id="adorno1" class="adorno1" value="moño" />
-        <label for="adorno1">Moño $30</label><br />
+        <label for="adorno1">{{ $store.state.precioMoño }}</label
+        ><br />
       </div>
       <div class="ador">
         <input type="checkbox" id="adorno2" class="adorno2" value="osos" />
-        <label for="adorno2">Osos de Gomita $20</label><br />
+        <label for="adorno2">{{ $store.state.precioOsos }}</label
+        ><br />
       </div>
 
       <div class="ador">
         <input type="checkbox" id="adorno3" class="adorno3" value="crema" />
-        <label for="adorno3">Crema $50</label><br />
+        <label for="adorno3">{{ $store.state.precioCrem }}</label
+        ><br />
       </div>
 
       <div class="ador">
         <input type="checkbox" id="adorno1" class="adorno1" value="papel" />
-        <label for="adorno1">Papel $30</label><br />
+        <label for="adorno1">{{ $store.state.precioPapel }}</label
+        ><br />
       </div>
     </div>
   </div>
